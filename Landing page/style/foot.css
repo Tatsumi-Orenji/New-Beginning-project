@@ -1,0 +1,48 @@
+.foot{
+    height: 600px;
+    background-color: black;
+    color: white;
+    display:block;
+    justify-content: center;
+}
+
+.foot-top{
+    height: 200px;
+    margin-left: 60px;
+    margin-top: 40px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    background-color: #8473a5;
+    padding: 10px;
+    border-radius: 30px;
+    color: black;
+}
+.foot-int{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+.foot-base{
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+.foot-reb{
+    margin-right: 30px;
+}
+.foot-bat{
+    margin-left: 60px;
+}
+
+.access-3{
+    border-radius:20px;
+    background-color: black;
+    color: white;
+    border-style: solid;
+    border-color: #8473a5;
+    padding: 10px;
+}

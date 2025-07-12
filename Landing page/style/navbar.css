@@ -1,0 +1,87 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    padding-top: 10px; 
+    margin-bottom: 10px;   
+}
+.container{
+    justify-content: space-between;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+.navbar ul{
+    display: flex;
+
+}
+
+.navbar a{
+    color: black;
+    padding-right: 10px;
+}
+.navbar a:hover{
+    color: blue;
+}
+.log{
+    display: inline block;
+}
+.access{
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    border-color: gray;
+    border-style: solid;
+    margin-right: 20px;
+    /* box-shadow: ; */
+}
+
+.access,.access-2:hover{
+    opacity: 0.7;
+    color: blue;
+    cursor: default;
+}
+.access:hover{
+    opacity: 0.7;
+    color: blue;
+    cursor: pointer;
+}
+.access,.access-2:active{
+    opacity: 0.5;
+    cursor: pointer;
+
+}
+.access-2{
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    border-style: solid;
+}
+.access, .access-2{
+    padding: 10px;
+}
+
+.navbar-2{
+    display: flex;
+    justify-content: left;
+    height: 50px;
+    border-top:2px gray solid ;
+    padding-top: 10px;
+}
+
+.navbar-2 ul{
+    display: flex;
+}
+
+.navbar-2 a{
+    color: black;
+    padding-right: 20px;
+}
+
+.navbar-2 a:hover{
+    color: blue;
+}
